@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
     <title>DevClub Convert Money</title>
 </head>
 
@@ -18,7 +19,7 @@
         </header>
         <main>
             <label>
-                Converter de 
+                Converter <b>de</b> 
                 <select>
                     <option>
                         R$ Real brasileiro
@@ -27,7 +28,7 @@
             </label>
 
             <label>
-                Converter para 
+                Converter <b>para</b> 
                 <select>
                     <option>
                         US$ Dólar americano
@@ -46,18 +47,18 @@
             <button type="button">Converter</button>
  
             <section>
-                <div>
-                    <img src="./brasil 2.svg" alt="">
-                    <p>Real</p>
-                    <p>R$ 10.000,00</p>
+                <div class="currency-container">
+                    <img src="./brasil 2.svg" alt="bandeira-brasil">
+                    <p class="currency-name">Real</p>
+                    <p class="currency-value">R$ 10.000,00</p>
                 </div>
 
-                <img src="./Seta.png" alt="">
+                <img class="arrow-img" src="./Seta.png" alt="seta">
 
-                <div>
-                    <img src="./estados-unidos (1) 1.svg" alt="">
+                <div class="currency-container">
+                    <img src="./estados-unidos (1) 1.svg" alt="bandeira-pos-conversão">
                     <p>Dolar americano</p>
-                    <p>US$  2.000,00</p>
+                    <p class="currency-value">US$  2.000,00</p>
                 </div>
             </section>
 
